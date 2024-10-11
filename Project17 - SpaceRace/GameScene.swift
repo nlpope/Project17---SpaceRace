@@ -90,8 +90,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
-        var location    = touch.location(in: self)
         
+        var location    = touch.location(in: self)
         if location.y < 100 { location.y = 100 }
         else if location.y > 668 { location.y = 668 }
         
@@ -99,7 +99,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+       gameOver()
+    }
+    
+    
     func didBegin(_ contact: SKPhysicsContact) {
+        gameOver()
+    }
+    
+    
+    func gameOver() {
         let explosion       = SKEmitterNode(fileNamed: EmitterKeys.explosion)!
         explosion.position  = player.position
         addChild(explosion)
