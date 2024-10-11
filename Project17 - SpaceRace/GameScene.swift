@@ -57,6 +57,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     @objc func createEnemy() {
         guard let enemy                     = possibleEnemies.randomElement() else { return }
+        guard !isGameOver else { return }
+        
         if enemiesCreated % 20 == 0 {
             gameTimer?.invalidate()
             timeInterval -= 0.1
