@@ -15,6 +15,15 @@
 		407E8AFD2CB841B400D58055 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 407E8AFC2CB841B400D58055 /* Base */; };
 		407E8AFF2CB841BA00D58055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407E8AFE2CB841BA00D58055 /* Assets.xcassets */; };
 		407E8B022CB841BA00D58055 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B012CB841BA00D58055 /* Base */; };
+		407E8B112CB8427D00D58055 /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B082CB8427D00D58055 /* ball@2x.png */; };
+		407E8B122CB8427D00D58055 /* bigSpark.png in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B092CB8427D00D58055 /* bigSpark.png */; };
+		407E8B132CB8427D00D58055 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B0A2CB8427D00D58055 /* explosion.sks */; };
+		407E8B142CB8427D00D58055 /* hammer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B0B2CB8427D00D58055 /* hammer@2x.png */; };
+		407E8B152CB8427D00D58055 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B0C2CB8427D00D58055 /* player@2x.png */; };
+		407E8B162CB8427D00D58055 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B0D2CB8427D00D58055 /* spark.png */; };
+		407E8B172CB8427D00D58055 /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B0E2CB8427D00D58055 /* starfield.sks */; };
+		407E8B182CB8427D00D58055 /* tv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 407E8B0F2CB8427D00D58055 /* tv@2x.png */; };
+		407E8B1A2CB848C700D58055 /* Constants+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E8B192CB848C700D58055 /* Constants+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +36,15 @@
 		407E8AFC2CB841B400D58055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		407E8AFE2CB841BA00D58055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		407E8B012CB841BA00D58055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		407E8B082CB8427D00D58055 /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		407E8B092CB8427D00D58055 /* bigSpark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigSpark.png; sourceTree = "<group>"; };
+		407E8B0A2CB8427D00D58055 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		407E8B0B2CB8427D00D58055 /* hammer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hammer@2x.png"; sourceTree = "<group>"; };
+		407E8B0C2CB8427D00D58055 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		407E8B0D2CB8427D00D58055 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		407E8B0E2CB8427D00D58055 /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
+		407E8B0F2CB8427D00D58055 /* tv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv@2x.png"; sourceTree = "<group>"; };
+		407E8B192CB848C700D58055 /* Constants+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +80,38 @@
 				407E8AF12CB841B400D58055 /* AppDelegate.swift */,
 				407E8AF32CB841B400D58055 /* GameScene.sks */,
 				407E8AF52CB841B400D58055 /* Actions.sks */,
+				407E8B1B2CB848CF00D58055 /* Utilities */,
 				407E8AF72CB841B400D58055 /* GameScene.swift */,
 				407E8AF92CB841B400D58055 /* GameViewController.swift */,
 				407E8AFB2CB841B400D58055 /* Main.storyboard */,
 				407E8AFE2CB841BA00D58055 /* Assets.xcassets */,
 				407E8B002CB841BA00D58055 /* LaunchScreen.storyboard */,
+				407E8B102CB8427D00D58055 /* Content */,
 			);
 			path = "Project17 - SpaceRace";
+			sourceTree = "<group>";
+		};
+		407E8B102CB8427D00D58055 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				407E8B082CB8427D00D58055 /* ball@2x.png */,
+				407E8B092CB8427D00D58055 /* bigSpark.png */,
+				407E8B0A2CB8427D00D58055 /* explosion.sks */,
+				407E8B0B2CB8427D00D58055 /* hammer@2x.png */,
+				407E8B0C2CB8427D00D58055 /* player@2x.png */,
+				407E8B0D2CB8427D00D58055 /* spark.png */,
+				407E8B0E2CB8427D00D58055 /* starfield.sks */,
+				407E8B0F2CB8427D00D58055 /* tv@2x.png */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		407E8B1B2CB848CF00D58055 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				407E8B192CB848C700D58055 /* Constants+Utils.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +172,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407E8B162CB8427D00D58055 /* spark.png in Resources */,
+				407E8B142CB8427D00D58055 /* hammer@2x.png in Resources */,
 				407E8AF42CB841B400D58055 /* GameScene.sks in Resources */,
+				407E8B122CB8427D00D58055 /* bigSpark.png in Resources */,
+				407E8B152CB8427D00D58055 /* player@2x.png in Resources */,
+				407E8B112CB8427D00D58055 /* ball@2x.png in Resources */,
 				407E8AFD2CB841B400D58055 /* Base in Resources */,
 				407E8AFF2CB841BA00D58055 /* Assets.xcassets in Resources */,
+				407E8B182CB8427D00D58055 /* tv@2x.png in Resources */,
+				407E8B132CB8427D00D58055 /* explosion.sks in Resources */,
 				407E8AF62CB841B400D58055 /* Actions.sks in Resources */,
+				407E8B172CB8427D00D58055 /* starfield.sks in Resources */,
 				407E8B022CB841BA00D58055 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				407E8AF82CB841B400D58055 /* GameScene.swift in Sources */,
+				407E8B1A2CB848C700D58055 /* Constants+Utils.swift in Sources */,
 				407E8AFA2CB841B400D58055 /* GameViewController.swift in Sources */,
 				407E8AF22CB841B400D58055 /* AppDelegate.swift in Sources */,
 			);
@@ -304,8 +356,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,8 +383,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
